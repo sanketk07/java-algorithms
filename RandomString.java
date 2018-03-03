@@ -27,7 +27,7 @@ public class RandomString {
 
 	final static String uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	final static String lowercaseLetters = uppercaseLetters.toLowerCase();
-	final static String validCharacterSet = uppercaseLetters + lowercaseLetters;
+	final static String validCharacters = uppercaseLetters + lowercaseLetters;
 	final Random random;
 	final char[] symbols;
 	final char[] charBuffer;
@@ -88,7 +88,7 @@ public class RandomString {
 	}
 
 	public RandomString(int length, Random random) {
-		this(length, random, validCharacterSet);
+		this(length, random, validCharacters);
 	}
 
 	public static String reverseString(String input) {
