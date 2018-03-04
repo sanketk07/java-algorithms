@@ -7,6 +7,8 @@ package com.homework5.sanket;
  * @author sanketkumar
  *
  */
+
+//Time complexity of heapify is O(Logn). Time complexity of createAndBuildHeap() is O(n) and overall time complexity of Heap Sort is O(nLogn).
 public class HeapSort
 {
     public void sort(int arr[])
