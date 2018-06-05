@@ -1,13 +1,3 @@
-/**
- * 
- */
-
-import java.util.Arrays;
-
-/**
- * @author sanketkumar
- *
- */
 public class TwinStrings {
 	
 	static boolean containsSameChars(String s1, String s2) {
