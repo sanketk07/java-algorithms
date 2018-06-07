@@ -1,14 +1,3 @@
-/**
- * 
- */
-package com.leetcode.easy;
-
-import java.util.Stack;
-
-/**
- * @author sanketkumar
- *
- */
 public class ValidParenthesis {
 	public boolean isValid(String s) {
 		Stack<Character> stack = new Stack<Character>();
