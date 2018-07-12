@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.homework10.mst;
 
 /**
